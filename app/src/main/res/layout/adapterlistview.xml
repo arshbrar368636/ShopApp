@@ -1,0 +1,113 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout
+    xmlns:android="http://schemas.android.com/apk/res/android" android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    android:gravity="center">
+    <LinearLayout
+        android:layout_height="wrap_content"
+        android:layout_width="wrap_content"
+        android:gravity="center"
+        android:orientation="vertical"
+        android:paddingRight="20dp"
+        android:paddingLeft="20dp"
+        android:paddingBottom="10dp"
+        android:paddingTop="10dp">
+
+    <com.android.volley.toolbox.NetworkImageView
+        android:background="@drawable/loadingg"
+        android:layout_height="100dp"
+        android:layout_width="100dp"
+        android:id="@+id/gvv_product_img"/>
+
+    <TextView
+        android:layout_height="wrap_content"
+        android:layout_width="wrap_content"
+        android:id="@+id/gvv_title"
+        android:textColor="#000266"
+        android:text="Title"/>
+
+
+    <LinearLayout
+        android:layout_height="wrap_content"
+        android:layout_width="wrap_content"
+        android:orientation="horizontal">
+
+    <TextView
+        android:layout_height="wrap_content"
+        android:layout_width="wrap_content"
+        android:textColor="#000"
+        android:text="Rs. "
+        android:textSize="14dp"/>
+
+    <TextView
+        android:layout_height="wrap_content"
+        android:layout_width="wrap_content"
+        android:id="@+id/gvv_price"
+        android:textColor="#000"
+        android:text="1200"
+        android:textSize="14dp"/>
+
+</LinearLayout>
+        <LinearLayout
+            android:layout_height="wrap_content"
+            android:layout_width="wrap_content"
+            android:orientation="horizontal">
+
+    <TextView
+        android:layout_height="wrap_content"
+        android:layout_width="wrap_content"
+        android:textColor="#565656"
+        android:text="Rs. "
+        android:textSize="10dp"
+        android:layout_marginLeft="10dp"/>
+
+    <TextView
+        android:layout_height="wrap_content"
+        android:layout_width="wrap_content"
+        android:id="@+id/gvv_original_price"
+        android:textColor="#565656"
+        android:text="1200"
+        android:textSize="10dp"/>
+
+    <TextView
+        android:layout_height="wrap_content"
+        android:layout_width="wrap_content"
+        android:id="@+id/gvv_discount"
+        android:textColor="#ff0000"
+        android:text="10"
+        android:textSize="10dp"
+        android:layout_marginLeft="10dp"/>
+
+    <TextView
+        android:layout_height="wrap_content"
+        android:layout_width="wrap_content"
+        android:textColor="#ff0000"
+        android:text="% Discount"
+        android:textSize="10dp"/>
+
+</LinearLayout>
+        <LinearLayout
+            android:layout_height="wrap_content"
+            android:layout_width="wrap_content"
+            android:orientation="horizontal"
+            android:layout_marginTop="10dp">
+
+    <ImageView
+        android:background="@drawable/moredetailbutton"
+        android:layout_height="30dp"
+        android:layout_width="90dp"
+        android:id="@+id/moredetailbutton"/>
+
+    <ImageView
+        android:background="@drawable/addtocartt"
+        android:layout_height="30dp"
+        android:layout_width="30dp"
+        android:id="@+id/pdgv_addtocart"
+        android:layout_marginLeft="3dp"/>
+
+</LinearLayout>
+
+</LinearLayout>
+
+</LinearLayout>
